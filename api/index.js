@@ -4,7 +4,8 @@ import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
-import { Productrouter } from "../App/routes/admin/product.routes.js"; // updated path
+import { Productrouter } from "./App/routes/admin/product.routes.js";
+
 
 dotenv.config();
 
